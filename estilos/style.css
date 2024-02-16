@@ -1,5 +1,30 @@
 @charset "UTF-8";
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    /*linear-gradient( to left, #29DEF2, #3DD1F2,#72B6F2, #8DA6F2, #A691F2)*/
+   
+}
+
 body{
-    background-color: bisque;
+    background-image:linear-gradient( to bottom, #29DEF2, #3DD1F2,#72B6F2, #8DA6F2, #A691F2) ;
+}
+main{
+    position: relative;
+    height: 100vh;
+}
+section#telefone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 627px;
+    width: 311px;
+    background: url('../imagens/frame-iphone.png') no-repeat;
 }
